@@ -8,6 +8,7 @@
 }
 
 ::root {
+    /* COLORS */
     --dark-blue: #172339;
     --grey: #49566D;
     --cream: #F3EDE7;
@@ -24,6 +25,8 @@ html {
 }
 
 /* CLASSES */
+
+/* TYPOGRAPHY */
 .heading-xl {
     font-size: 5rem;
     font-style: normal;
@@ -80,6 +83,8 @@ html {
     line-height: 2rem;
 }
 
+
+/* BUTTONS */
 .primary-button {
     width: 16rem;
     height: 4rem;
