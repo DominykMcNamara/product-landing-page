@@ -1,1 +1,115 @@
-/* Add styles here */
+/* ROOT */
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::root {
+    --dark-blue: #172339;
+    --grey: #49566D;
+    --cream: #F3EDE7;
+    --white: #FAF8F6;
+    --blue-purple: #A060FF;
+    --purple: #CB30E3;
+    --orange: #FFA84E;
+}
+
+html {
+    font-family: 'Epilogue', sans-serif;
+    color: var(--dark-blue);
+    background-color: var(--white);
+}
+
+/* CLASSES */
+.heading-xl {
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5rem;
+    letter-spacing: 0rem;
+}
+
+.heading-l {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4rem;
+    letter-spacing: 0;
+}
+
+.heading-m {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 0;
+}
+
+
+.heading-s {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0;
+}
+
+.quote {
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0;
+}
+
+.body-text {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0;
+}
+
+.footer-text {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.primary-button {
+    width: 16rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    background: var(--dark-blue);
+    color: var(--white);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 0;
+}
+
+.primary-button:hover {
+    background: linear-gradient(135deg, var(--blue-purple) 0%, var(--purple) 49%, var(--orange) 100%);
+}
+
+.secondary-button {
+    width: 16rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    background: var(--cream);
+    color: var(--dark-blue);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    border: 1px var(--dark-blue);
+}
+
+.secondary-button:hover {
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
