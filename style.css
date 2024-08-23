@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-::root {
+:root {
     /* COLORS */
     --dark-blue: #172339;
     --grey: #49566D;
@@ -44,7 +44,7 @@ html {
 }
 
 .heading-m {
-    font-size: 1.125rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     line-height: 2rem;
@@ -88,8 +88,9 @@ html {
 .primary-button {
     width: 16rem;
     height: 4rem;
+    cursor: pointer;
     border-radius: 0.5rem;
-    background: var(--dark-blue);
+    background-color: var(--dark-blue);
     color: var(--white);
     font-size: 1rem;
     font-style: normal;
@@ -98,9 +99,6 @@ html {
     letter-spacing: 0;
 }
 
-.primary-button:hover {
-    background: linear-gradient(135deg, var(--blue-purple) 0%, var(--purple) 49%, var(--orange) 100%);
-}
 
 .secondary-button {
     width: 16rem;
@@ -112,9 +110,4 @@ html {
     font-style: normal;
     font-weight: 700;
     border: 1px var(--dark-blue);
-}
-
-.secondary-button:hover {
-    background-color: var(--dark-blue);
-    color: var(--white);
 }
